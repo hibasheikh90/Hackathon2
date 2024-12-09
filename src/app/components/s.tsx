@@ -6,7 +6,7 @@ function Section() {
     <div className="relative w-full">
       <div>
         <Image
-          src="/s.png"
+          src="/S.png"
           alt="Hero"
           width={1440}
           height={704}
