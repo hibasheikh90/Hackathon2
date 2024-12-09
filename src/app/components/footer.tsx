@@ -57,7 +57,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center text-gray-500 mt-10">
-        © Copyright Rimel 2024. All right reserved
+        © Copyright Rimel 2024 Avion LTD
       </div>
     </footer>
   );
