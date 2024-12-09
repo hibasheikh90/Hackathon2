@@ -37,18 +37,18 @@ function Footer() {
 
         <div>
           <p>Join our mailing list</p>
-          <div className="flex mt-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-5">
             <input
               type="email"
               placeholder="Your@email.com"
-              className="px-4 py-3 w-full bg-transparent border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-purple-600 text-lg"
+              className="w-full sm:w-96 p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
             />
-            <button className="bg-white text-black px-6 py-3 rounded-r-lg font-medium hover:bg-gray-100 text-lg">
-              SignUp
+            <button className="bg-white hover:bg-purple-80 px-6 text-black rounded-md">
+              Sign Up
             </button>
           </div>
 
-          <div className="flex gap-4 mt-4">
+          <div className="flex gap-4 mt-4 py-6">
             <FaFacebook className="text-xl cursor-pointer hover:text-gray-400" />
             <FaTwitter className="text-xl cursor-pointer hover:text-gray-400" />
             <FaInstagram className="text-xl cursor-pointer hover:text-gray-400" />
