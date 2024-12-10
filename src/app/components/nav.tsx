@@ -11,25 +11,25 @@ function Nav() {
       <nav className="hidden md:flex justify-center flex-grow">
         <ul className="flex items-center gap-8 ">
           <li className="hover:underline">
-            <Link href="/">Plant pots</Link>
+            <Link href="/plant pots">Plant pots</Link>
           </li>
           <li className="hover:underline">
             <Link href="/ceramics">Ceramics</Link>
           </li>
           <li className="hover:underline">
-            <Link href="/tables">Tables</Link>
+            <Link href="/cer">Tables</Link>
           </li>
           <li className="hover:underline">
-            <Link href="/signup">Chairs</Link>
+            <Link href="/pro">Chairs</Link>
           </li>
           <li className="hover:underline">
             <Link href="/croakery">Croakery</Link>
           </li>
           <li className="hover:underline">
-            <Link href="/tableware">Tableware</Link>
+            <Link href="/list">Tableware</Link>
           </li>
           <li className="hover:underline">
-            <Link href="/cutlery">Cutlery</Link>
+            <Link href="/studio">Cutlery</Link>
           </li>
         </ul>
       </nav>
