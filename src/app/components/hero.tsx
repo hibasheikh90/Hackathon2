@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="bg-purple-950 text-white min-h-screen flex items-center">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-12 md:px-20 py-16">
-        {/* Left Section: Text */}
+        
         <div className="flex flex-col justify-center text-center lg:text-left">
           <h1 className="text-2xl md:text-3xl font-serif font-semibold mb-6">
             The furniture brand for the <br />
@@ -24,10 +24,10 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Right Section: Image */}
+        
         <div className="flex justify-center items-center mt-8 lg:mt-0">
           <Image
-            src="/hero.png" // Make sure to replace with your actual image path
+            src="/hero.png" 
             alt="Furniture Chair"
             width={600}
             height={600}
