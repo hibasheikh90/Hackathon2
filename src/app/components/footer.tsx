@@ -36,15 +36,15 @@ function Footer() {
         </div>
 
         <div>
-          <p>Join our mailing list</p>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-5">
+          <p className="mb-2 text-sm">Join our mailing list</p>
+          <div className="flex w-full max-w-md">
             <input
               type="email"
-              placeholder="Your@email.com"
-              className="w-full sm:w-96 p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600"
+              placeholder="you@email.com"
+              className="flex-grow px-4 py-2 text-sm text-gray-300 bg-[#4C416F] rounded-l-md focus:outline-none focus:ring-2 focus:ring-[#6E5E9C]"
             />
-            <button className="bg-white hover:bg-purple-80 px-6 text-black rounded-md">
-              Sign Up
+            <button className="px-4 py-2 text-sm font-medium  bg-white text-[#2D254A] rounded-r-md hover:bg-gray-200">
+              Sign up
             </button>
           </div>
 
