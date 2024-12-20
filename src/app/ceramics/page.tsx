@@ -1,10 +1,9 @@
 import React from 'react'
-import Brand from '../components/brand'
-
+import Cer from '../components/cer'
 function page() {
   return (
     <div>
-      <Brand />
+      <Cer />
     </div>
   )
 }

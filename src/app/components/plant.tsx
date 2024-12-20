@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export default function Studio() {
+export default function Plant() {
   return (
     <div className="bg-white px-20 py-16 w-full">
       <div className=" text-black min-h-screen flex items-center">

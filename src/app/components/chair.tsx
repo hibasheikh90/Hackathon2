@@ -1,35 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import { CiDeliveryTruck } from "react-icons/ci";
-import { MdOutlineShoppingCart } from "react-icons/md";
-import { CiSearch } from "react-icons/ci";
 
-function ProductPage() {
+
+function Chair() {
   return (
     <div className="font-sans">
-      <div className="flex items-center justify-center bg-black text-sm py-2 text-white space-x-2">
+       <div className="flex items-center justify-center bg-black text-sm py-2 text-white space-x-2">
         <CiDeliveryTruck className="text-lg" />
          <span>Free delivery on all orders over £50 with code easter at checkout</span>
        </div>
-   
-      <nav className="bg-white shadow-md py-4 px-8 flex justify-between items-center">
-        <div className="text-xl font-bold">Avion</div>
-        <ul className="hidden md:flex space-x-6 text-gray-600">
-          <li>Plant pots</li>
-          <li>Ceramics</li>
-          <li>Tables</li>
-          <li>Chairs</li>
-          <li>Crockery</li>
-          <li>Tableware</li>
-          <li>Cutlery</li>
-        </ul>
-        <div className="flex space-x-4 text-gray-600">
-          <div className="cursor-pointer"><CiSearch /></div>
-          <div className="cursor-pointer"><MdOutlineShoppingCart /></div>
-        </div>
-      </nav>
-
-      
+       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-8 lg:px-36 py-16 items-center">
         <div>
           <Image
@@ -82,5 +63,5 @@ function ProductPage() {
   );
 }
 
-export default ProductPage;
+export default Chair;
 

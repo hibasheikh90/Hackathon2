@@ -1,10 +1,12 @@
 import React from 'react'
-import Item from '../components/item'
+import Chair from '../components/chair'
+import Product from '../components/product'
 
 function page() {
   return (
     <div>
-      <Item />
+      <Chair />
+      <Product />
     </div>
   )
 }

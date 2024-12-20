@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-function Section() {
+function Table() {
   return (
     <div className="relative w-full">
       <div>
@@ -18,4 +18,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default Table; 

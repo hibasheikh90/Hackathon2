@@ -1,10 +1,10 @@
 import React from 'react'
-import Product from '../components/pro'
+import Table from '../components/table'
 
-function page() {
+const page = () => {
   return (
     <div>
-      <Product />
+      <Table />
     </div>
   )
 }
