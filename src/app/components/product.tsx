@@ -3,58 +3,51 @@ import Image from "next/image";
 
 function PopularProducts() {
   return (
-    <div className="px-8 lg:px-36 py-9">
-      <h2 className=" text-2xl font-medium mb-12 ">
-        Our popular products
-      </h2>
+    <div className="w-full bg-[#ffffff] py-16 mt-16">
+      {/* Heading */}
+      <h1 className="ml-10 font-[Clash Display] font-normal text-3xl lg:text-4xl text-[#2A254B] mb-20">
+        Our Popular Products
+      </h1>
 
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-">
-        
-        <div className="">
+      {/* Images Section in one row */}
+      <div className="flex flex-row gap-8 justify-center mt-8">
+        <div className="w-full sm:w-1/2 lg:w-[620px]">
           <Image
-            src="/Large.png" 
-            alt="The Poplar Suede Sofa"
-            width={900} 
-            height={575} 
-            className="mx-auto rounded-lg shadow-md object-cover"
+            src="/large.png"
+            alt="Popular Product 1"
+            width={620}
+            height={462}
+            className="object-cover"
           />
-          <h3 className="text-lg font-medium mt-4">The Poplar suede sofa</h3>
-          <p className="text-gray-600 ">£980</p>
         </div>
-
-        
-        <div className="">
+        <div className="w-full sm:w-1/2 lg:w-[305px]">
           <Image
-            src="/hero.png" 
-            alt="The Dandy Chair"
-            width={305} 
-            height={375} 
-            className="mx-auto rounded-lg shadow-md object-cover"
+            src="/hero.png"
+            alt="Popular Product 2"
+            width={305}
+            height={472}
+            className="object-cover"
           />
-          <h3 className="text-lg font-medium mt-4 px-9">The Dandy chair</h3>
-          <p className="text-gray-600 px-9 ">£250</p>
         </div>
-
-        
-        <div className="">
+        <div className="w-full sm:w-1/2 lg:w-[305px]">
           <Image
-            src="/0.png" 
-            alt="The Dandy Chair"
-            width={305} 
-            height={375} 
-            className="mx-auto rounded-lg shadow-md object-cover"
+            src="/0.png"
+            alt="Popular Product 3"
+            width={305}
+            height={462}
+            className="object-cover"
           />
-          <h3 className="text-lg font-medium mt-4 px-9">The Dandy chair</h3>
-          <p className="text-gray-600 px-11">£250</p>
         </div>
       </div>
-      <div className="text-center mt-12">
-        <button className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-6 py-3 rounded-md font-medium">
-          View collection
+
+      {/* Button */}
+      <div className="flex justify-center mt-8">
+        <button className="bg-[#F9F9F9] px-6 py-3 text-lg rounded hover:bg-gray-200">
+          View Collection
         </button>
       </div>
     </div>
   );
 }
-export default PopularProducts; 
+
+export default PopularProducts;
